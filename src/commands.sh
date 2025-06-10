@@ -1,8 +1,13 @@
 #!/bin/bash
-sudo apt update
-sudo apt install bcftools
-mamba create -n  commands
-mamba activate commands
+
+for dir_name in northafrica_syria_filtered Tunisia_dataset anagnostu 
+do
+
+echo $dir_name 
+
+done
+
+
 cd Téléchargements
 cd data
 cd Comas_2017
